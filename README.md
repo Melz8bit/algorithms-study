@@ -10,9 +10,12 @@ Each algorithm lives in its own folder with its own README, implementation, and 
 
 ```
 algorithms-study/
-├── miller-rabin/
+├── miller_rabin/
 │   ├── README.md
 │   └── miller_rabin.py
+├── lru_cache/
+│   ├── README.md
+│   └── lru.py
 ├── ...
 ```
 
@@ -43,7 +46,8 @@ Study is supplemented by:
 
 | Algorithm                                      | Category                   | Complexity |
 | ---------------------------------------------- | -------------------------- | ---------- |
-| [Miller-Rabin Primality Test](./miller-rabin/) | Randomized / Number Theory | O(log² n)  |
+| [Miller-Rabin Primality Test](./miller_rabin/) | Randomized / Number Theory | O(log² n)  |
+| [LRU Cache](./lru_cache/)                      | Data Structures / Caching  | O(1)       | 
 
 ---
 
