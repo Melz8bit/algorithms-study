@@ -58,6 +58,7 @@ Study is supplemented by:
 | [LRU Cache](./lru_cache/)                      | Data Structures / Caching  | O(1)       | 
 | [Bubble Sort](./sorting/bubble_sort)           | Data Structures / Sorting  | O(n²)      | 
 | [Insertion Sort](./sorting/insertion_sort)     | Data Structures / Sorting  | O(n²)      | 
+| [Merge Sort](./sorting/merge_sort)             | Data Structures / Sorting  | O(n log n) | 
 
 ---
 
