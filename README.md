@@ -10,12 +10,20 @@ Each algorithm lives in its own folder with its own README, implementation, and 
 
 ```
 algorithms-study/
-├── miller_rabin/
-│   ├── README.md
-│   └── miller_rabin.py
 ├── lru_cache/
 │   ├── README.md
 │   └── lru.py
+├── miller_rabin/
+│   ├── README.md
+│   └── miller_rabin.py
+├── sorting/
+│   ├── bubble_sort/
+│       ├── README.md
+│       └── bubble_sort.py
+│   ├── insertion_sort/
+│       ├── README.md
+│       └── insertion_sort.py
+│   ├── ...
 ├── ...
 ```
 
@@ -48,6 +56,8 @@ Study is supplemented by:
 | ---------------------------------------------- | -------------------------- | ---------- |
 | [Miller-Rabin Primality Test](./miller_rabin/) | Randomized / Number Theory | O(log² n)  |
 | [LRU Cache](./lru_cache/)                      | Data Structures / Caching  | O(1)       | 
+| [Bubble Sort](./sorting/bubble_sort)           | Data Structures / Sorting  | O(n²)      | 
+| [Insertion Sort](./sorting/insertion_sort)     | Data Structures / Sorting  | O(n²)      | 
 
 ---
 
