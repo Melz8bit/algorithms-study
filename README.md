@@ -10,6 +10,10 @@ Each algorithm lives in its own folder with its own README, implementation, and 
 
 ```
 algorithms-study/
+├── searching/
+│   ├── binary_search/
+│       ├── README.md
+│       └── binary_search.py
 ├── lru_cache/
 │   ├── README.md
 │   └── lru.py
@@ -20,9 +24,15 @@ algorithms-study/
 │   ├── bubble_sort/
 │       ├── README.md
 │       └── bubble_sort.py
+│   ├── bucket_sort/
+│       ├── README.md
+│       └── bucket_sort.py
 │   ├── insertion_sort/
 │       ├── README.md
 │       └── insertion_sort.py
+│   ├── merge_sort/
+│       ├── README.md
+│       └── merge_sort.py
 │   ├── ...
 ├── ...
 ```
@@ -52,13 +62,15 @@ Study is supplemented by:
 
 ## Implementations
 
-| Algorithm                                      | Category                   | Complexity |
-| ---------------------------------------------- | -------------------------- | ---------- |
-| [Miller-Rabin Primality Test](./miller_rabin/) | Randomized / Number Theory | O(log² n)  |
-| [LRU Cache](./lru_cache/)                      | Data Structures / Caching  | O(1)       | 
-| [Bubble Sort](./sorting/bubble_sort)           | Data Structures / Sorting  | O(n²)      | 
-| [Insertion Sort](./sorting/insertion_sort)     | Data Structures / Sorting  | O(n²)      | 
-| [Merge Sort](./sorting/merge_sort)             | Data Structures / Sorting  | O(n log n) | 
+| Algorithm                                      | Category                    | Complexity |
+| ---------------------------------------------- | --------------------------- | ---------- |
+| [Miller-Rabin Primality Test](./miller_rabin/) | Randomized / Number Theory  | O(log² n)  |
+| [LRU Cache](./lru_cache/)                      | Data Structures / Caching   | O(1)       | 
+| [Bubble Sort](./sorting/bubble_sort)           | Data Structures / Sorting   | O(n²)      | 
+| [Insertion Sort](./sorting/insertion_sort)     | Data Structures / Sorting   | O(n²)      | 
+| [Merge Sort](./sorting/merge_sort)             | Data Structures / Sorting   | O(n log n) | 
+| [Bucket Sort](./sorting/bucket_sort)           | Data Structures / Sorting   | O(n + k)   | 
+| [Binary Search](./searching/binary_search)     | Data Structures / Searching | O(log n)   | 
 
 ---
 
