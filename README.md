@@ -10,6 +10,16 @@ Each algorithm lives in its own folder with its own README, implementation, and 
 
 ```
 algorithms-study/
+├── scheduling/
+│   ├── edd/
+│       ├── edd_README.md
+│       └── edd.py
+│   ├── moore/
+│       ├── moore_README.md
+│       └── moore.py
+│   ├── spt/
+│       ├── spt_README.md
+│       └── spt.py
 ├── searching/
 │   ├── binary_search/
 │       ├── README.md
@@ -62,15 +72,18 @@ Study is supplemented by:
 
 ## Implementations
 
-| Algorithm                                      | Category                    | Complexity |
-| ---------------------------------------------- | --------------------------- | ---------- |
-| [Miller-Rabin Primality Test](./miller_rabin/) | Randomized / Number Theory  | O(log² n)  |
-| [LRU Cache](./lru_cache/)                      | Data Structures / Caching   | O(1)       | 
-| [Bubble Sort](./sorting/bubble_sort)           | Data Structures / Sorting   | O(n²)      | 
-| [Insertion Sort](./sorting/insertion_sort)     | Data Structures / Sorting   | O(n²)      | 
-| [Merge Sort](./sorting/merge_sort)             | Data Structures / Sorting   | O(n log n) | 
-| [Bucket Sort](./sorting/bucket_sort)           | Data Structures / Sorting   | O(n + k)   | 
-| [Binary Search](./searching/binary_search)     | Data Structures / Searching | O(log n)   | 
+| Algorithm                                      | Category                     | Complexity |
+| ---------------------------------------------- | ---------------------------  | ---------- |
+| [Miller-Rabin Primality Test](./miller_rabin/) | Randomized / Number Theory   | O(log² n)  |
+| [LRU Cache](./lru_cache/)                      | Data Structures / Caching    | O(1)       | 
+| [Bubble Sort](./sorting/bubble_sort)           | Data Structures / Sorting    | O(n²)      | 
+| [Insertion Sort](./sorting/insertion_sort)     | Data Structures / Sorting    | O(n²)      | 
+| [Merge Sort](./sorting/merge_sort)             | Data Structures / Sorting    | O(n log n) | 
+| [Bucket Sort](./sorting/bucket_sort)           | Data Structures / Sorting    | O(n + k)   | 
+| [Binary Search](./searching/binary_search)     | Data Structures / Searching  | O(log n)   | 
+| [Earliest Due Date](./scheduling/edd)          | Data Structures / Scheduling | O(n log n) | 
+| [Moore's Algorithm](./scheduling/moore)        | Data Structures / Scheduling | O(n²)      | 
+| [Shortest Processing Time](./scheduling/spt)   | Data Structures / Scheduling | O(n log n) | 
 
 ---
 
