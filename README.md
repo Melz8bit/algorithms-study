@@ -17,8 +17,18 @@ algorithms-study/
 │   ├── README.md
 │   └── miller_rabin.py
 ├── monte_carlo/
-│   ├── README.md
-│   └── pi_approximate.py
+│   ├── birthday_problem/
+│       ├── README.md
+│       └── birthday_problem.py
+│   ├── dice_probability/
+│       ├── README.md
+│       └── dice_probability.py
+│   ├── monty_hall/
+│       ├── README.md
+│       └── monty_hall.py
+│   ├── pi_approximate/
+│       ├── README.md
+│       └── pi_approximate.py
 ├── scheduling/
 │   ├── edd/
 │       ├── README.md
