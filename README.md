@@ -10,26 +10,29 @@ Each algorithm lives in its own folder with its own README, implementation, and 
 
 ```
 algorithms-study/
-├── scheduling/
-│   ├── edd/
-│       ├── edd_README.md
-│       └── edd.py
-│   ├── moore/
-│       ├── moore_README.md
-│       └── moore.py
-│   ├── spt/
-│       ├── spt_README.md
-│       └── spt.py
-├── searching/
-│   ├── binary_search/
-│       ├── README.md
-│       └── binary_search.py
 ├── lru_cache/
 │   ├── README.md
 │   └── lru.py
 ├── miller_rabin/
 │   ├── README.md
 │   └── miller_rabin.py
+├── monte_carlo/
+│   ├── README.md
+│   └── pi_approximate.py
+├── scheduling/
+│   ├── edd/
+│       ├── README.md
+│       └── edd.py
+│   ├── moore/
+│       ├── README.md
+│       └── moore.py
+│   ├── spt/
+│       ├── README.md
+│       └── spt.py
+├── searching/
+│   ├── binary_search/
+│       ├── README.md
+│       └── binary_search.py
 ├── sorting/
 │   ├── bubble_sort/
 │       ├── README.md
@@ -45,7 +48,6 @@ algorithms-study/
 │       └── merge_sort.py
 │   ├── ...
 ├── ...
-```
 
 ---
 
